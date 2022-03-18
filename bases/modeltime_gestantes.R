@@ -1,27 +1,62 @@
 library(tidyverse); library(lubridate); library(modeltime); library(tidymodels)
 library(timetk)
 
-setwd("~/GitHub/prophet_gestantes/bases")
+setwd("~/GitHub/prophet_gestantes/bases") 
+
+municipio_regiao <- read_csv("municipio_regiao.csv", 
+                             col_types = cols(CO_MUNICIP = col_character(), 
+                                              CO_REGSAUD = col_character())) %>% 
+                    janitor::clean_names()
 
 nascimentos <- read_csv("nascimentos.csv") %>% select(-X1) %>% janitor::clean_names()
 
 nascimentos$dtnasc <- dmy(nascimentos$dtnasc)
 
+regioes_nomes <- read_csv("regioes_nomes.csv", 
+                          col_types = cols(CO_REGSAUD = col_character())) %>% 
+                 janitor::clean_names() %>% 
+                 select(co_regsaud, ds_nomepad)
+
 # nascimentos$mes_ano <- zoo::as.yearmon(nascimentos$dtnasc, "%Y %m")
 nascimentos$mes_ano <- as.Date(format(nascimentos$dtnasc, "%Y-%m"))
 
+nascimentos <- nascimentos %>% 
+                  mutate(regiao = as.character(str_sub(codmunres, end = 6)))
 
 nascimentos_go <- nascimentos %>% 
-                    filter(dtnasc < "2021-10-01") %>% 
-                    group_by(uf, dtnasc) %>%
-                    summarise(total = sum(contagem))
+                    filter(dtnasc < "2021-10-01") %>%
+                    left_join(municipio_regiao, by = c("regiao"="co_municip")) %>% 
+                    left_join(regioes_nomes, by = c("co_regsaud" = "co_regsaud")) %>% 
+                    group_by(co_regsaud, dtnasc, ds_nomepad) %>%
+                    summarise(total = sum(contagem)) %>% 
+                    filter(ds_nomepad != "NA")
 
+# 
+# nascimentos_go <- nascimentos %>% 
+#                       filter(dtnasc < "2021-10-01") %>%
+#                       left_join(municipio_regiao, by = c("regiao"="co_municip")) %>% 
+#                       left_join(regioes_nomes, by = c("co_regsaud" = "co_regsaud")) %>% 
+#                       group_by(uf, dtnasc) %>%
+#                       summarise(total = sum(contagem))                    
+                    
 nascimentos_go %>% 
-  ggplot(aes(x = mes_ano, y = total)) + geom_line(size = 0.60) + 
-  theme_minimal()
+  ggplot(aes(x = dtnasc, y = total)) + geom_line(size = 0.60) + 
+  theme_minimal() + facet_wrap(~ds_nomepad)
 
 nascimentos_go %>% 
   plot_time_series(dtnasc, total)
+
+
+
+# regiao central ----------------------------------------------------------
+
+regiao_central <- nascimentos_go %>% 
+                    filter(ds_nomepad == "CENTRAL")
+
+
+
+
+
 
 
 # split e prophet ---------------------------------------------------------
@@ -129,6 +164,16 @@ total_nascimentos <- rbind(total_nascimentos_atual_recente, total_nascimentos_pr
 total_nascimentos %>% 
   ggplot(aes(mes_ano, total,  group = 1, col = tipo)) + geom_line() + 
   theme_minimal() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+
+# Regiao Sul --------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 # Oferta de profissionais -------------------------------------------------
