@@ -28,7 +28,7 @@ nascimentos_go %>%
 
 splits <- time_series_split(
   nascimentos_go,
-  assess = "6 months",
+  assess = "12 months",
   cumulative = TRUE
 )
 
@@ -84,7 +84,7 @@ calib_tbl %>%
 
 future_forecast_tbl <- calib_tbl %>% 
   modeltime_refit(nascimentos_go) %>% 
-  modeltime_forecast(h = "24 months",
+  modeltime_forecast(h = "42 months",
                      actual_data = nascimentos_go)
 
 future_forecast_tbl %>% 
@@ -121,7 +121,7 @@ total_nascimentos_atual_recente <-
   mutate(tipo = "atual")
 
 
-writexl::write_xlsx(total_nascimentos_previsao, "totalnascimentos_go.xlsx")
+#writexl::write_xlsx(total_nascimentos_previsao, "totalnascimentos_go.xlsx")
 
 total_nascimentos <- rbind(total_nascimentos_atual_recente, total_nascimentos_previsao)
 
@@ -129,4 +129,26 @@ total_nascimentos <- rbind(total_nascimentos_atual_recente, total_nascimentos_pr
 total_nascimentos %>% 
   ggplot(aes(mes_ano, total,  group = 1, col = tipo)) + geom_line() + 
   theme_minimal() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+
+# Oferta de profissionais -------------------------------------------------
+
+
+
+oferta <- read_csv("dados_oferta_profissionais_gestantes.csv") %>% 
+            group_by(ano, nivel_atencao, categoria) %>% 
+            summarise(CH_total = (sum(FTE) * 0.12)/12,
+                      FTE_40 = CH_total/40)
+
+oferta %>% 
+  ggplot(aes(ano, FTE_40, col = nivel_atencao)) + geom_line() + 
+  facet_wrap(~categoria)
+
+
+
+
+
+
+
+
 

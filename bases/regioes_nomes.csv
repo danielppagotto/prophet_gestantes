@@ -1,0 +1,667 @@
+﻿CO_REGSAUD,CO_STATUS,DS_NOME,DS_NOMEPAD,DS_ABREV,NU_ORDEM
+00000,IGNOR,Ignorado ou Exterior,Ignorado ou Exterior,Ignorado ou Exterior,8
+11001,ATIVO,Vale do Jamari,VALE DO JAMARI,Vale do Jamari,1
+11002,ATIVO,Café,CAFE,Café,1
+11003,ATIVO,Central,CENTRAL,Central,1
+11004,ATIVO,Madeira-Mamoré,MADEIRA-MAMORE,Madeira-Mamoré,1
+11005,ATIVO,Zona da Mata,ZONA DA MATA,Zona da Mata,1
+11006,ATIVO,Cone Sul,CONE SUL,Cone Sul,1
+11007,ATIVO,Vale do Guaporé,VALE DO GUAPORE,Vale do Guaporé,1
+12001,ATIVO,Alto Acre,ALTO ACRE,Alto Acre,1
+12002,ATIVO,Baixo Acre e Purus,BAIXO ACRE E PURUS,Baixo Acre e Purus,1
+12003,ATIVO,Juruá e Tarauacá/Envira,JURUA E TARAUACA/ENVIRA,Juruá e Tarauacá/Envira,1
+13001,ATIVO,"Manaus, Entorno e Alto Rio Negro","MANAUS, ENTORNO E ALTO RIO NEGRO","Manaus, Entorno e Alto Rio Negro",1
+13002,ATIVO,Rio Negro e Solimões,RIO NEGRO E SOLIMOES,Rio Negro e Solimões,1
+13003,ATIVO,Rio Madeira,RIO MADEIRA,Rio Madeira,1
+13004,ATIVO,Médio Amazonas,MEDIO AMAZONAS,Médio Amazonas,1
+13005,ATIVO,Baixo Amazonas,BAIXO AMAZONAS,Baixo Amazonas,1
+13006,ATIVO,Regional Purus,REGIONAL PURUS,Regional Purus,1
+13007,ATIVO,Regional Juruá,REGIONAL JURUA,Regional Juruá,1
+13008,ATIVO,Triângulo,TRIANGULO,Triângulo,1
+13009,ATIVO,Alto Solimões,ALTO SOLIMOES,Alto Solimões,1
+14001,ATIVO,Centro Norte,CENTRO NORTE,Centro Norte,1
+14002,ATIVO,Sul,SUL,Sul,1
+15000,IGNOR,CGR Região de Saúde do Baixo Amazonas,CGR REGIAO DE SAUDE DO BAIXO AMAZONAS,CGR Região de Saúde do Baixo Amazonas,8
+15000,IGNOR,CGR Região de Saúde Rodovia BR 010,CGR REGIAO DE SAUDE RODOVIA BR 010,CGR Região de Saúde Rodovia BR 010,8
+15000,IGNOR,CGR Região de Saúde Serra das Andorinhas,CGR REGIAO DE SAUDE SERRA DAS ANDORINHAS,CGR Região de Saúde Serra das Andorinhas,8
+15000,IGNOR,CGR Região de Saúde Serra dos Carajás,CGR REGIAO DE SAUDE SERRA DOS CARAJAS,CGR Região de Saúde Serra dos Carajás,8
+15000,IGNOR,CGR Região de Saúde Alça Viária,CGR REGIAO DE SAUDE ALCA VIARIA,CGR Região de Saúde Alça Viária,8
+15000,IGNOR,CGR Região de Saúde Araguaia,CGR REGIAO DE SAUDE ARAGUAIA,CGR Região de Saúde Araguaia,8
+15000,IGNOR,CGR Região de Saúde Araguaia-Xingú,CGR REGIAO DE SAUDE ARAGUAIA-XINGU,CGR Região de Saúde Araguaia-Xingú,8
+15000,IGNOR,CGR Região de Saúde da Bacia Atlântico Caetes,CGR REGIAO DE SAUDE DA BACIA ATLANTICO CAETES,CGR Região de Saúde da Bacia Atlântico Caetes,8
+15000,IGNOR,CGR Região de Saúde da Calha Norte,CGR REGIAO DE SAUDE DA CALHA NORTE,CGR Região de Saúde da Calha Norte,8
+15000,IGNOR,CGR Região de Saude da Rod. Transamazônia,CGR REGIAO DE SAUDE DA ROD. TRANSAMAZONIA,CGR Região de Saude da Rod. Transamazônia,8
+15000,IGNOR,CGR Região de Saúde do Baixo Tocantins,CGR REGIAO DE SAUDE DO BAIXO TOCANTINS,CGR Região de Saúde do Baixo Tocantins,8
+15000,IGNOR,CGR Região de Saúde do Rio Guamá,CGR REGIAO DE SAUDE DO RIO GUAMA,CGR Região de Saúde do Rio Guamá,8
+15000,IGNOR,CGR Região de Saúde do Rio Tapajós,CGR REGIAO DE SAUDE DO RIO TAPAJOS,CGR Região de Saúde do Rio Tapajós,8
+15000,IGNOR,CGR Região de Saúde Entre Rios,CGR REGIAO DE SAUDE ENTRE RIOS,CGR Região de Saúde Entre Rios,8
+15000,IGNOR,CGR Região de Saúde Itacaiunas Tocantins,CGR REGIAO DE SAUDE ITACAIUNAS TOCANTINS,CGR Região de Saúde Itacaiunas Tocantins,8
+15000,IGNOR,CGR Região de Saúde Lago Tucuruí,CGR REGIAO DE SAUDE LAGO TUCURUI,CGR Região de Saúde Lago Tucuruí,8
+15000,IGNOR,CGR Região de Saúde Marajó Ocidental,CGR REGIAO DE SAUDE MARAJO OCIDENTAL,CGR Região de Saúde Marajó Ocidental,8
+15000,IGNOR,CGR Região de Saúde Marajó Oriental,CGR REGIAO DE SAUDE MARAJO ORIENTAL,CGR Região de Saúde Marajó Oriental,8
+15000,IGNOR,CGR Região de Saúde Metropolitana,CGR REGIAO DE SAUDE METROPOLITANA,CGR Região de Saúde Metropolitana,8
+15000,IGNOR,CGR Região de Saúde Planalto do Araguaia,CGR REGIAO DE SAUDE PLANALTO DO ARAGUAIA,CGR Região de Saúde Planalto do Araguaia,8
+15000,IGNOR,CGR Região de Saúde Rodovia BR 222,CGR REGIAO DE SAUDE RODOVIA BR 222,CGR Região de Saúde Rodovia BR 222,8
+15000,IGNOR,CGR Região de Saúde Rodovia PA-140/Rio Capim,CGR REGIAO DE SAUDE RODOVIA PA-140/RIO CAPIM,CGR Região de Saúde Rodovia PA-140/Rio Capim,8
+15000,IGNOR,CGR Região de Saúde Rodovia PA-140/Rio Guajará-Miri,CGR REGIAO DE SAUDE RODOVIA PA-140/RIO GUAJARA-MIRI,CGR Região de Saúde Rodovia PA-140/Rio Guajará-Miri,8
+15000,IGNOR,Marajó,MARAJO,Marajó,8
+15001,ATIVO,Araguaia,ARAGUAIA,Araguaia,1
+15002,ATIVO,Baixo Amazonas,BAIXO AMAZONAS,Baixo Amazonas,1
+15003,ATIVO,Carajás,CARAJAS,Carajás,1
+15004,ATIVO,Lago de Tucuruí,LAGO DE TUCURUI,Lago de Tucuruí,1
+15006,ATIVO,Metropolitana I,METROPOLITANA I,Metropolitana I,1
+15007,ATIVO,Metropolitana II,METROPOLITANA II,Metropolitana II,1
+15008,ATIVO,Metropolitana III,METROPOLITANA III,Metropolitana III,1
+15009,ATIVO,Rio Caetés,RIO CAETES,Rio Caetés,1
+15010,ATIVO,Tapajós,TAPAJOS,Tapajós,1
+15011,ATIVO,Tocantins,TOCANTINS,Tocantins,1
+15012,ATIVO,Xingu,XINGU,Xingu,1
+15013,ATIVO,Marajó I,MARAJO I,Marajó I,1
+15014,ATIVO,Marajó II,MARAJO II,Marajó II,1
+16001,ATIVO,Área Central,AREA CENTRAL,Área Central,1
+16002,ATIVO,Área Norte,AREA NORTE,Área Norte,1
+16003,ATIVO,Área Sudoeste,AREA SUDOESTE,Área Sudoeste,1
+17000,IGNOR,Miracema,MIRACEMA,Miracema,8
+17000,IGNOR,Araguaia - Tocantins,ARAGUAIA - TOCANTINS,Araguaia - Tocantins,8
+17000,IGNOR,Centro-Sul,CENTRO-SUL,Centro-Sul,8
+17000,IGNOR,Cultura do Cerrado,CULTURA DO CERRADO,Cultura do Cerrado,8
+17000,IGNOR,Extremo Sudeste,EXTREMO SUDESTE,Extremo Sudeste,8
+17000,IGNOR,Lobo Guará,LOBO GUARA,Lobo Guará,8
+17000,IGNOR,Médio Araguaia,MEDIO ARAGUAIA,Médio Araguaia,8
+17000,IGNOR,Portal do Bico,PORTAL DO BICO,Portal do Bico,8
+17000,IGNOR,Sul Angical,SUL ANGICAL,Sul Angical,8
+17001,ATIVO,Médio Norte Araguaia,MEDIO NORTE ARAGUAIA,Médio Norte Araguaia,1
+17002,ATIVO,Bico do Papagaio,BICO DO PAPAGAIO,Bico do Papagaio,1
+17003,ATIVO,Sudeste,SUDESTE,Sudeste,1
+17003,IGNOR,Dianópolis,DIANOPOLIS,Dianópolis,8
+17004,ATIVO,Cerrado Tocantins Araguaia,CERRADO TOCANTINS ARAGUAIA,Cerrado Tocantins Araguaia,1
+17005,ATIVO,Ilha do Bananal,ILHA DO BANANAL,Ilha do Bananal,1
+17006,ATIVO,Capim Dourado,CAPIM DOURADO,Capim Dourado,1
+17006,IGNOR,Palmas,PALMAS,Palmas,8
+17007,ATIVO,Cantão,CANTAO,Cantão,1
+17007,IGNOR,cantão,CANTAO,cantão,8
+17008,ATIVO,Amor Perfeito,AMOR PERFEITO,Amor Perfeito,1
+21001,ATIVO,Açailândia,ACAILANDIA,Açailândia,1
+21002,ATIVO,Bacabal,BACABAL,Bacabal,1
+21003,ATIVO,Balsas,BALSAS,Balsas,1
+21004,ATIVO,Barra do Corda,BARRA DO CORDA,Barra do Corda,1
+21005,ATIVO,Caxias,CAXIAS,Caxias,1
+21006,ATIVO,Chapadinha,CHAPADINHA,Chapadinha,1
+21007,ATIVO,Codó,CODO,Codó,1
+21008,ATIVO,Imperatriz,IMPERATRIZ,Imperatriz,1
+21009,ATIVO,Itapecuru Mirim,ITAPECURU MIRIM,Itapecuru Mirim,1
+21010,ATIVO,Pedreiras,PEDREIRAS,Pedreiras,1
+21011,ATIVO,Pinheiro,PINHEIRO,Pinheiro,1
+21012,ATIVO,Presidente Dutra,PRESIDENTE DUTRA,Presidente Dutra,1
+21013,ATIVO,Rosário,ROSARIO,Rosário,1
+21014,ATIVO,Santa Inês,SANTA INES,Santa Inês,1
+21015,ATIVO,São João dos Patos,SAO JOAO DOS PATOS,São João dos Patos,1
+21016,ATIVO,São Luís,SAO LUIS,São Luís,1
+21017,ATIVO,Timon,TIMON,Timon,1
+21018,ATIVO,Viana,VIANA,Viana,1
+21019,ATIVO,Zé Doca,ZE DOCA,Zé Doca,1
+22001,ATIVO,Carnaubais,CARNAUBAIS,Carnaubais,1
+22002,ATIVO,Chapada das Mangabeiras,CHAPADA DAS MANGABEIRAS,Chapada das Mangabeiras,1
+22003,ATIVO,Cocais,COCAIS,Cocais,1
+22004,ATIVO,Entre Rios,ENTRE RIOS,Entre Rios,1
+22005,ATIVO,Planície Litorânea,PLANICIE LITORANEA,Planície Litorânea,1
+22006,ATIVO,Serra da Capivara,SERRA DA CAPIVARA,Serra da Capivara,1
+22007,ATIVO,Tabuleiros do Alto Parnaíba,TABULEIROS DO ALTO PARNAIBA,Tabuleiros do Alto Parnaíba,1
+22008,ATIVO,Vale do Canindé,VALE DO CANINDE,Vale do Canindé,1
+22009,ATIVO,Vale do Rio Guaribas,VALE DO RIO GUARIBAS,Vale do Rio Guaribas,1
+22010,ATIVO,Vale do Sambito,VALE DO SAMBITO,Vale do Sambito,1
+22011,ATIVO,Vale dos Rios Piauí e Itaueiras,VALE DOS RIOS PIAUI E ITAUEIRAS,Vale dos Rios Piauí e Itaueiras,1
+23001,ATIVO,1ª Região Fortaleza,1ª REGIAO FORTALEZA,1ª Região Fortaleza,1
+23002,ATIVO,2ª Região Caucaia,2ª REGIAO CAUCAIA,2ª Região Caucaia,1
+23003,ATIVO,3ª Região Maracanaú,3ª REGIAO MARACANAU,3ª Região Maracanaú,1
+23004,ATIVO,4ª Região Baturité,4ª REGIAO BATURITE,4ª Região Baturité,1
+23005,ATIVO,5ª Região Canindé,5ª REGIAO CANINDE,5ª Região Canindé,1
+23006,ATIVO,6ª Região Itapipoca,6ª REGIAO ITAPIPOCA,6ª Região Itapipoca,1
+23007,ATIVO,7ª Região Aracati,7ª REGIAO ARACATI,7ª Região Aracati,1
+23008,ATIVO,8ª Região Quixadá,8ª REGIAO QUIXADA,8ª Região Quixadá,1
+23009,ATIVO,9ª Região Russas,9ª REGIAO RUSSAS,9ª Região Russas,1
+23010,ATIVO,10ª Região Limoeiro do Norte,10ª REGIAO LIMOEIRO DO NORTE,10ª Região Limoeiro do Norte,1
+23011,ATIVO,11ª Região Sobral,11ª REGIAO SOBRAL,11ª Região Sobral,1
+23012,ATIVO,12ª Região Acaraú,12ª REGIAO ACARAU,12ª Região Acaraú,1
+23013,ATIVO,13ª Região Tianguá,13ª REGIAO TIANGUA,13ª Região Tianguá,1
+23014,ATIVO,14ª Região Tauá,14ª REGIAO TAUA,14ª Região Tauá,1
+23015,ATIVO,15ª Região Crateús,15ª REGIAO CRATEUS,15ª Região Crateús,1
+23016,ATIVO,16ª Região Camocim,16ª REGIAO CAMOCIM,16ª Região Camocim,1
+23017,ATIVO,17ª Região Icó,17ª REGIAO ICO,17ª Região Icó,1
+23018,ATIVO,18ª Região Iguatú,18ª REGIAO IGUATU,18ª Região Iguatú,1
+23019,ATIVO,19ª Região Brejo Santo,19ª REGIAO BREJO SANTO,19ª Região Brejo Santo,1
+23020,ATIVO,20ª Região Crato,20ª REGIAO CRATO,20ª Região Crato,1
+23021,ATIVO,21ª Região Juazeiro do Norte,21ª REGIAO JUAZEIRO DO NORTE,21ª Região Juazeiro do Norte,1
+23022,ATIVO,22ª Região Cascavel,22ª REGIAO CASCAVEL,22ª Região Cascavel,1
+24001,ATIVO,1ª Região de Saúde - São José de Mipibu,1ª REGIAO DE SAUDE - SAO JOSE DE MIPIBU,1ª Região de Saúde - São José de Mipibu,1
+24002,ATIVO,2ª Região de Saúde - Mossoró,2ª REGIAO DE SAUDE - MOSSORO,2ª Região de Saúde - Mossoró,1
+24003,ATIVO,3ª Região de Saúde - João Câmara,3ª REGIAO DE SAUDE - JOAO CAMARA,3ª Região de Saúde - João Câmara,1
+24004,ATIVO,4ª Região de Saúde - Caicó,4ª REGIAO DE SAUDE - CAICO,4ª Região de Saúde - Caicó,1
+24005,ATIVO,5ª Região de Saúde - Santa Cruz,5ª REGIAO DE SAUDE - SANTA CRUZ,5ª Região de Saúde - Santa Cruz,1
+24006,ATIVO,6ª Região de Saúde - Pau dos Ferros,6ª REGIAO DE SAUDE - PAU DOS FERROS,6ª Região de Saúde - Pau dos Ferros,1
+24007,ATIVO,7ª Região de Saúde - Metropolitana,7ª REGIAO DE SAUDE - METROPOLITANA,7ª Região de Saúde - Metropolitana,1
+24008,ATIVO,8ª Região de Saúde - Açu,8ª REGIAO DE SAUDE - ACU,8ª Região de Saúde - Açu,1
+25001,ATIVO,1ª Região Mata Atlântica,1ª REGIAO MATA ATLANTICA,1ª Região Mata Atlântica,1
+25002,ATIVO,2ª Região,2ª REGIAO,2ª Região,1
+25003,ATIVO,3ª Região,3ª REGIAO,3ª Região,1
+25004,ATIVO,4ª Região,4ª REGIAO,4ª Região,1
+25005,ATIVO,5ª Região,5ª REGIAO,5ª Região,1
+25006,ATIVO,6ª Região,6ª REGIAO,6ª Região,1
+25007,ATIVO,7ª Região,7ª REGIAO,7ª Região,1
+25008,ATIVO,8ª Região,8ª REGIAO,8ª Região,1
+25009,ATIVO,9ª Região,9ª REGIAO,9ª Região,1
+25010,ATIVO,10ª Região,10ª REGIAO,10ª Região,1
+25011,ATIVO,11ª Região,11ª REGIAO,11ª Região,1
+25012,ATIVO,12ª Região,12ª REGIAO,12ª Região,1
+25013,ATIVO,13ª Região,13ª REGIAO,13ª Região,1
+25014,ATIVO,14ª Região,14ª REGIAO,14ª Região,1
+25015,ATIVO,15ª Região,15ª REGIAO,15ª Região,1
+25016,ATIVO,16ª Região,16ª REGIAO,16ª Região,1
+26001,ATIVO,Afogados da Ingazeira,AFOGADOS DA INGAZEIRA,Afogados da Ingazeira,1
+26002,ATIVO,Arcoverde,ARCOVERDE,Arcoverde,1
+26003,ATIVO,Caruaru,CARUARU,Caruaru,1
+26004,ATIVO,Garanhuns,GARANHUNS,Garanhuns,1
+26005,ATIVO,Goiana,GOIANA,Goiana,1
+26006,ATIVO,Limoeiro,LIMOEIRO,Limoeiro,1
+26007,ATIVO,Ouricuri,OURICURI,Ouricuri,1
+26008,ATIVO,Palmares,PALMARES,Palmares,1
+26009,ATIVO,Petrolina,PETROLINA,Petrolina,1
+26010,ATIVO,Recife,RECIFE,Recife,1
+26011,ATIVO,Salgueiro,SALGUEIRO,Salgueiro,1
+26012,ATIVO,Serra Talhada,SERRA TALHADA,Serra Talhada,1
+27001,ATIVO,1ª Região de Saúde,1ª REGIAO DE SAUDE,1ª Região de Saúde,1
+27002,ATIVO,2ª Região de Saúde,2ª REGIAO DE SAUDE,2ª Região de Saúde,1
+27003,ATIVO,3ª Região de Saúde,3ª REGIAO DE SAUDE,3ª Região de Saúde,1
+27004,ATIVO,4ª Região de Saúde,4ª REGIAO DE SAUDE,4ª Região de Saúde,1
+27005,ATIVO,5ª Região de Saúde,5ª REGIAO DE SAUDE,5ª Região de Saúde,1
+27006,ATIVO,6ª Região de Saúde,6ª REGIAO DE SAUDE,6ª Região de Saúde,1
+27007,ATIVO,7ª Região de Saúde,7ª REGIAO DE SAUDE,7ª Região de Saúde,1
+27008,ATIVO,8ª Região de Saúde,8ª REGIAO DE SAUDE,8ª Região de Saúde,1
+27009,ATIVO,9ª Região de Saúde,9ª REGIAO DE SAUDE,9ª Região de Saúde,1
+27010,ATIVO,10ª Região de Saúde,10ª REGIAO DE SAUDE,10ª Região de Saúde,1
+28001,ATIVO,Aracaju,ARACAJU,Aracaju,1
+28002,ATIVO,Estância,ESTANCIA,Estância,1
+28003,ATIVO,Itabaiana,ITABAIANA,Itabaiana,1
+28004,ATIVO,Lagarto,LAGARTO,Lagarto,1
+28005,ATIVO,Nossa Senhora da Glória,NOSSA SENHORA DA GLORIA,Nossa Senhora da Glória,1
+28006,ATIVO,Nossa Senhora do Socorro,NOSSA SENHORA DO SOCORRO,Nossa Senhora do Socorro,1
+28007,ATIVO,Propriá,PROPRIA,Propriá,1
+29001,ATIVO,Alagoinhas,ALAGOINHAS,Alagoinhas,1
+29002,ATIVO,Barreiras,BARREIRAS,Barreiras,1
+29003,ATIVO,Brumado,BRUMADO,Brumado,1
+29004,ATIVO,Camaçari,CAMACARI,Camaçari,1
+29005,ATIVO,Cruz das Almas,CRUZ DAS ALMAS,Cruz das Almas,1
+29006,ATIVO,Feira de Santana,FEIRA DE SANTANA,Feira de Santana,1
+29007,ATIVO,Guanambi,GUANAMBI,Guanambi,1
+29008,ATIVO,Ibotirama,IBOTIRAMA,Ibotirama,1
+29009,ATIVO,Ilhéus,ILHEUS,Ilhéus,1
+29010,ATIVO,Irecê,IRECE,Irecê,1
+29011,ATIVO,Itaberaba,ITABERABA,Itaberaba,1
+29012,ATIVO,Itabuna,ITABUNA,Itabuna,1
+29013,ATIVO,Itapetinga,ITAPETINGA,Itapetinga,1
+29014,ATIVO,Jacobina,JACOBINA,Jacobina,1
+29015,ATIVO,Jequié,JEQUIE,Jequié,1
+29016,ATIVO,Juazeiro,JUAZEIRO,Juazeiro,1
+29017,ATIVO,Paulo Afonso,PAULO AFONSO,Paulo Afonso,1
+29018,ATIVO,Porto Seguro,PORTO SEGURO,Porto Seguro,1
+29019,ATIVO,Ribeira do Pombal,RIBEIRA DO POMBAL,Ribeira do Pombal,1
+29020,ATIVO,Salvador,SALVADOR,Salvador,1
+29021,ATIVO,Santa Maria da Vitória,SANTA MARIA DA VITORIA,Santa Maria da Vitória,1
+29022,ATIVO,Santo Antônio de Jesus,SANTO ANTONIO DE JESUS,Santo Antônio de Jesus,1
+29023,ATIVO,Seabra,SEABRA,Seabra,1
+29024,ATIVO,Senhor do Bonfim,SENHOR DO BONFIM,Senhor do Bonfim,1
+29025,ATIVO,Serrinha,SERRINHA,Serrinha,1
+29026,ATIVO,Teixeira de Freitas,TEIXEIRA DE FREITAS,Teixeira de Freitas,1
+29027,ATIVO,Valença,VALENCA,Valença,1
+29028,ATIVO,Vitória da Conquista,VITORIA DA CONQUISTA,Vitória da Conquista,1
+31001,ATIVO,Alfenas / Machado,ALFENAS / MACHADO,Alfenas / Machado,1
+31001,IGNOR,Águas Formosas,AGUAS FORMOSAS,Águas Formosas,8
+31002,ATIVO,Guaxupé,GUAXUPE,Guaxupé,1
+31002,IGNOR,Além Paraíba,ALEM PARAIBA,Além Paraíba,8
+31003,ATIVO,Itajubá,ITAJUBA,Itajubá,1
+31003,IGNOR,Alfenas Machado,ALFENAS MACHADO,Alfenas Machado,8
+31004,ATIVO,Lavras,LAVRAS,Lavras,1
+31004,IGNOR,Almenara,ALMENARA,Almenara,8
+31005,IGNOR,Araçuaí,ARACUAI,Araçuaí,8
+31006,ATIVO,Poços de Caldas,POCOS DE CALDAS,Poços de Caldas,1
+31006,IGNOR,Araxá,ARAXA,Araxá,8
+31007,ATIVO,Pouso Alegre,POUSO ALEGRE,Pouso Alegre,1
+31007,IGNOR,Barbacena,BARBACENA,Barbacena,8
+31008,ATIVO,São Lourenço,SAO LOURENCO,São Lourenço,1
+31008,IGNOR,Belo Horizonte Nova Lima Caeté,BELO HORIZONTE NOVA LIMA CAETE,Belo Horizonte Nova Lima Caeté,8
+31009,ATIVO,São Sebastião do Paraíso,SAO SEBASTIAO DO PARAISO,São Sebastião do Paraíso,1
+31009,IGNOR,Betim,BETIM,Betim,8
+31010,ATIVO,Três Corações,TRES CORACOES,Três Corações,1
+31010,IGNOR,Bom Despacho,BOM DESPACHO,Bom Despacho,8
+31011,ATIVO,Três Pontas,TRES PONTAS,Três Pontas,1
+31011,IGNOR,Brasília de Minas São Francisco,BRASILIA DE MINAS SAO FRANCISCO,Brasília de Minas São Francisco,8
+31012,ATIVO,Varginha,VARGINHA,Varginha,1
+31012,IGNOR,Carangola,CARANGOLA,Carangola,8
+31013,ATIVO,Barbacena,BARBACENA,Barbacena,1
+31013,IGNOR,Caratinga,CARATINGA,Caratinga,8
+31014,IGNOR,Conselheiro Lafaiete Congonhas,CONSELHEIRO LAFAIETE CONGONHAS,Conselheiro Lafaiete Congonhas,8
+31015,ATIVO,São João Del Rei,SAO JOAO DEL REI,São João Del Rei,1
+31015,IGNOR,Contagem,CONTAGEM,Contagem,8
+31016,ATIVO,Belo Horizonte/ Nova Lima/ Caeté,BELO HORIZONTE/ NOVA LIMA/ CAETE,Belo Horizonte/ Nova Lima/ Caeté,1
+31016,IGNOR,Coração de Jesus,CORACAO DE JESUS,Coração de Jesus,8
+31017,ATIVO,Betim,BETIM,Betim,1
+31017,IGNOR,Coronel Fabriciano Timóteo,CORONEL FABRICIANO TIMOTEO,Coronel Fabriciano Timóteo,8
+31018,ATIVO,Contagem,CONTAGEM,Contagem,1
+31018,IGNOR,Curvelo,CURVELO,Curvelo,8
+31019,ATIVO,Curvelo,CURVELO,Curvelo,1
+31019,IGNOR,Diamantina,DIAMANTINA,Diamantina,8
+31020,ATIVO,Guanhães,GUANHAES,Guanhães,1
+31020,IGNOR,Divinópolis Santo Antônio do Monte,DIVINOPOLIS SANTO ANTONIO DO MONTE,Divinópolis Santo Antônio do Monte,8
+31021,ATIVO,Itabira,ITABIRA,Itabira,1
+31021,IGNOR,Formiga,FORMIGA,Formiga,8
+31022,ATIVO,Ouro Preto,OURO PRETO,Ouro Preto,1
+31022,IGNOR,Francisco Sá,FRANCISCO SA,Francisco Sá,8
+31023,ATIVO,João Monlevade,JOAO MONLEVADE,João Monlevade,1
+31023,IGNOR,Frutal Iturama,FRUTAL ITURAMA,Frutal Iturama,8
+31024,ATIVO,Sete Lagoas,SETE LAGOAS,Sete Lagoas,1
+31024,IGNOR,Governador Valadares,GOVERNADOR VALADARES,Governador Valadares,8
+31025,ATIVO,Vespasiano,VESPASIANO,Vespasiano,1
+31025,IGNOR,Guanhães,GUANHAES,Guanhães,8
+31026,ATIVO,Diamantina,DIAMANTINA,Diamantina,1
+31026,IGNOR,Guaxupé,GUAXUPE,Guaxupé,8
+31027,ATIVO,Turmalina/Minas Novas/Capelinha,TURMALINA/MINAS NOVAS/CAPELINHA,Turmalina/Minas Novas/Capelinha,1
+31027,IGNOR,Ipatinga,IPATINGA,Ipatinga,8
+31028,ATIVO,Bom Despacho,BOM DESPACHO,Bom Despacho,1
+31028,IGNOR,Itabira,ITABIRA,Itabira,8
+31029,IGNOR,Itajubá,ITAJUBA,Itajubá,8
+31030,ATIVO,Formiga,FORMIGA,Formiga,1
+31030,IGNOR,Itaobim,ITAOBIM,Itaobim,8
+31031,ATIVO,Itaúna,ITAUNA,Itaúna,1
+31031,IGNOR,Itaúna,ITAUNA,Itaúna,8
+31032,ATIVO,Pará de Minas,PARA DE MINAS,Pará de Minas,1
+31032,IGNOR,Ituiutaba,ITUIUTABA,Ituiutaba,8
+31033,IGNOR,Janaúba Monte Azul,JANAUBA MONTE AZUL,Janaúba Monte Azul,8
+31034,ATIVO,Caratinga,CARATINGA,Caratinga,1
+31034,IGNOR,Januária,JANUARIA,Januária,8
+31035,ATIVO,Coronel Fabriciano/Timóteo,CORONEL FABRICIANO/TIMOTEO,Coronel Fabriciano/Timóteo,1
+31035,IGNOR,João Monlevade,JOAO MONLEVADE,João Monlevade,8
+31036,ATIVO,Governador Valadares,GOVERNADOR VALADARES,Governador Valadares,1
+31036,IGNOR,João Pinheiro,JOAO PINHEIRO,João Pinheiro,8
+31037,ATIVO,Ipatinga,IPATINGA,Ipatinga,1
+31037,IGNOR,Juiz de Fora Lima Duarte Bom Jardim Minas,JUIZ DE FORA LIMA DUARTE BOM JARDIM MINAS,Juiz de Fora Lima Duarte Bom Jardim Minas,8
+31038,ATIVO,Mantena,MANTENA,Mantena,1
+31038,IGNOR,Lavras,LAVRAS,Lavras,8
+31039,IGNOR,Leopoldina Cataguases,LEOPOLDINA CATAGUASES,Leopoldina Cataguases,8
+31040,ATIVO,Resplendor,RESPLENDOR,Resplendor,1
+31040,IGNOR,Manga,MANGA,Manga,8
+31041,ATIVO,Além  Paraíba,ALEM  PARAIBA,Além  Paraíba,1
+31041,IGNOR,Manhuaçu,MANHUACU,Manhuaçu,8
+31042,ATIVO,Carangola,CARANGOLA,Carangola,1
+31042,IGNOR,Mantena,MANTENA,Mantena,8
+31043,IGNOR,Minas Novas Turmalina Capelinha,MINAS NOVAS TURMALINA CAPELINHA,Minas Novas Turmalina Capelinha,8
+31044,ATIVO,Leopoldina / Cataguases,LEOPOLDINA / CATAGUASES,Leopoldina / Cataguases,1
+31044,IGNOR,Montes Claros Bocaiúva,MONTES CLAROS BOCAIUVA,Montes Claros Bocaiúva,8
+31045,ATIVO,Muriaé,MURIAE,Muriaé,1
+31045,IGNOR,Muriaé,MURIAE,Muriaé,8
+31046,ATIVO,Santos Dumont,SANTOS DUMONT,Santos Dumont,1
+31046,IGNOR,Nanuque,NANUQUE,Nanuque,8
+31047,ATIVO,São João Nepomuceno / bicas,SAO JOAO NEPOMUCENO / BICAS,São João Nepomuceno / bicas,1
+31047,IGNOR,Ouro Preto,OURO PRETO,Ouro Preto,8
+31048,ATIVO,Ubá,UBA,Ubá,1
+31048,IGNOR,Padre Paraíso,PADRE PARAISO,Padre Paraíso,8
+31049,ATIVO,Brasília de Minas/São Francisco,BRASILIA DE MINAS/SAO FRANCISCO,Brasília de Minas/São Francisco,1
+31049,IGNOR,Pará de Minas,PARA DE MINAS,Pará de Minas,8
+31050,ATIVO,Coração de Jesus,CORACAO DE JESUS,Coração de Jesus,1
+31050,IGNOR,Passos Piumhi,PASSOS PIUMHI,Passos Piumhi,8
+31051,ATIVO,Francisco Sá,FRANCISCO SA,Francisco Sá,1
+31051,IGNOR,Patos de Minas,PATOS DE MINAS,Patos de Minas,8
+31052,ATIVO,Janaúba/Monte Azul,JANAUBA/MONTE AZUL,Janaúba/Monte Azul,1
+31052,IGNOR,Patrocínio Monte Carmelo,PATROCINIO MONTE CARMELO,Patrocínio Monte Carmelo,8
+31053,ATIVO,Januária,JANUARIA,Januária,1
+31053,IGNOR,Pedra Azul,PEDRA AZUL,Pedra Azul,8
+31054,IGNOR,Pirapora,PIRAPORA,Pirapora,8
+31055,ATIVO,Pirapora,PIRAPORA,Pirapora,1
+31055,IGNOR,Poços de Caldas,POCOS DE CALDAS,Poços de Caldas,8
+31056,IGNOR,Ponte Nova,PONTE NOVA,Ponte Nova,8
+31057,ATIVO,Patos de Minas,PATOS DE MINAS,Patos de Minas,1
+31057,IGNOR,Pouso Alegre,POUSO ALEGRE,Pouso Alegre,8
+31058,ATIVO,Unaí,UNAI,Unaí,1
+31058,IGNOR,Resplendor,RESPLENDOR,Resplendor,8
+31059,ATIVO,Manhuaçu,MANHUACU,Manhuaçu,1
+31059,IGNOR,Salinas Taiobeiras,SALINAS TAIOBEIRAS,Salinas Taiobeiras,8
+31060,ATIVO,Ponte Nova,PONTE NOVA,Ponte Nova,1
+31060,IGNOR,Santa Maria do Suaçuí São João Evangelista,SANTA MARIA DO SUACUI SAO JOAO EVANGELISTA,Santa Maria do Suaçuí São João Evangelista,8
+31061,ATIVO,Viçosa,VICOSA,Viçosa,1
+31061,IGNOR,Santo Antônio do Amparo Campo Belo,SANTO ANTONIO DO AMPARO CAMPO BELO,Santo Antônio do Amparo Campo Belo,8
+31062,ATIVO,Águas Formosas,AGUAS FORMOSAS,Águas Formosas,1
+31062,IGNOR,Santos Dumont,SANTOS DUMONT,Santos Dumont,8
+31063,IGNOR,São João del Rei,SAO JOAO DEL REI,São João del Rei,8
+31064,ATIVO,Araçuaí,ARACUAI,Araçuaí,1
+31064,IGNOR,São João Nepomuceno Bicas,SAO JOAO NEPOMUCENO BICAS,São João Nepomuceno Bicas,8
+31065,ATIVO,Itaobim,ITAOBIM,Itaobim,1
+31065,IGNOR,São Lourenço,SAO LOURENCO,São Lourenço,8
+31066,ATIVO,Nanuque,NANUQUE,Nanuque,1
+31066,IGNOR,São Sebastião do Paraíso,SAO SEBASTIAO DO PARAISO,São Sebastião do Paraíso,8
+31067,ATIVO,Padre Paraíso,PADRE PARAISO,Padre Paraíso,1
+31067,IGNOR,Sete Lagoas,SETE LAGOAS,Sete Lagoas,8
+31068,ATIVO,Pedra azul,PEDRA AZUL,Pedra azul,1
+31068,IGNOR,Teófilo Otoni Malacacheta Itambacuri,TEOFILO OTONI MALACACHETA ITAMBACURI,Teófilo Otoni Malacacheta Itambacuri,8
+31069,IGNOR,Três Corações,TRES CORACOES,Três Corações,8
+31070,ATIVO,Araxá,ARAXA,Araxá,1
+31070,IGNOR,Três Pontas,TRES PONTAS,Três Pontas,8
+31071,ATIVO,Frutal / Iturama,FRUTAL / ITURAMA,Frutal / Iturama,1
+31071,IGNOR,Ubá,UBA,Ubá,8
+31072,ATIVO,Uberaba,UBERABA,Uberaba,1
+31072,IGNOR,Uberaba,UBERABA,Uberaba,8
+31073,ATIVO,Ituiutaba,ITUIUTABA,Ituiutaba,1
+31073,IGNOR,Uberlândia Araguari,UBERLANDIA ARAGUARI,Uberlândia Araguari,8
+31074,ATIVO,Patrocínio / Monte Carmelo,PATROCINIO / MONTE CARMELO,Patrocínio / Monte Carmelo,1
+31074,IGNOR,Unaí,UNAI,Unaí,8
+31075,ATIVO,Uberlândia / Araguari,UBERLANDIA / ARAGUARI,Uberlândia / Araguari,1
+31075,IGNOR,Varginha,VARGINHA,Varginha,8
+31076,ATIVO,Manga,MANGA,Manga,1
+31076,IGNOR,Vespasiano,VESPASIANO,Vespasiano,8
+31077,ATIVO,João Pinheiro,JOAO PINHEIRO,João Pinheiro,1
+31077,IGNOR,Viçosa,VICOSA,Viçosa,8
+31078,ATIVO,Congonhas,CONGONHAS,Congonhas,1
+31079,ATIVO,Conselheiro Lafaiete,CONSELHEIRO LAFAIETE,Conselheiro Lafaiete,1
+31080,ATIVO,Peçanha/São João Evangelista,PECANHA/SAO JOAO EVANGELISTA,Peçanha/São João Evangelista,1
+31081,ATIVO,Santa Maria do Suaçuí,SANTA MARIA DO SUACUI,Santa Maria do Suaçuí,1
+31082,ATIVO,São Gotardo,SAO GOTARDO,São Gotardo,1
+31083,ATIVO,Bocaiúva,BOCAIUVA,Bocaiúva,1
+31084,ATIVO,Montes Claros,MONTES CLAROS,Montes Claros,1
+31085,ATIVO,Taiobeiras,TAIOBEIRAS,Taiobeiras,1
+31086,ATIVO,Divinópolis,DIVINOPOLIS,Divinópolis,1
+31087,ATIVO,Lagoa da Prata/Sto Ant do Monte,LAGOA DA PRATA/STO ANT DO MONTE,Lagoa da Prata/Sto Ant do Monte,1
+31088,ATIVO,Oliveira/Santo Antônio do Amparo,OLIVEIRA/SANTO ANTONIO DO AMPARO,Oliveira/Santo Antônio do Amparo,1
+31089,ATIVO,Campo Belo,CAMPO BELO,Campo Belo,1
+31090,ATIVO,Lima Duarte,LIMA DUARTE,Lima Duarte,1
+31091,ATIVO,Cassia,CASSIA,Cassia,1
+31092,ATIVO,Passos,PASSOS,Passos,1
+31093,ATIVO,Piumhi,PIUMHI,Piumhi,1
+31094,ATIVO,Almenara/Jacinto,ALMENARA/JACINTO,Almenara/Jacinto,1
+31095,ATIVO,Serro,SERRO,Serro,1
+31096,ATIVO,Itambacuri,ITAMBACURI,Itambacuri,1
+31097,ATIVO,Juiz de Fora,JUIZ DE FORA,Juiz de Fora,1
+31098,ATIVO,salinas,SALINAS,salinas,1
+31099,ATIVO,Teófilo Otoni / Malacacheta,TEOFILO OTONI / MALACACHETA,Teófilo Otoni / Malacacheta,1
+32001,ATIVO,Central,CENTRAL,Central,1
+32002,ATIVO,Metropolitana,METROPOLITANA,Metropolitana,1
+32003,ATIVO,Norte,NORTE,Norte,1
+32004,ATIVO,Sul,SUL,Sul,1
+33001,ATIVO,Baia da Ilha Grande,BAIA DA ILHA GRANDE,Baia da Ilha Grande,1
+33002,ATIVO,Baixada Litorânea,BAIXADA LITORANEA,Baixada Litorânea,1
+33003,ATIVO,Centro-Sul,CENTRO-SUL,Centro-Sul,1
+33004,ATIVO,Médio Paraíba,MEDIO PARAIBA,Médio Paraíba,1
+33005,ATIVO,Metropolitana I,METROPOLITANA I,Metropolitana I,1
+33006,ATIVO,Metropolitana II,METROPOLITANA II,Metropolitana II,1
+33007,ATIVO,Noroeste,NOROESTE,Noroeste,1
+33008,ATIVO,Norte,NORTE,Norte,1
+33009,ATIVO,Serrana,SERRANA,Serrana,1
+35001,IGNOR,Adamantina,ADAMANTINA,Adamantina,8
+35002,IGNOR,Alta Anhanguera,ALTA ANHANGUERA,Alta Anhanguera,8
+35003,IGNOR,Alta Mogiana,ALTA MOGIANA,Alta Mogiana,8
+35004,IGNOR,Alta Paulista,ALTA PAULISTA,Alta Paulista,8
+35005,IGNOR,Alta Sorocabana,ALTA SOROCABANA,Alta Sorocabana,8
+35006,IGNOR,Alto Capivari,ALTO CAPIVARI,Alto Capivari,8
+35007,IGNOR,Alto do Tietê,ALTO DO TIETE,Alto do Tietê,8
+35008,IGNOR,Alto Vale do Paraíba,ALTO VALE DO PARAIBA,Alto Vale do Paraíba,8
+35009,IGNOR,Aquífero Guarani,AQUIFERO GUARANI,Aquífero Guarani,8
+35010,IGNOR,Araras,ARARAS,Araras,8
+35011,ATIVO,Alto do Tietê,ALTO DO TIETE,Alto do Tietê,1
+35011,IGNOR,Assis,ASSIS,Assis,8
+35012,ATIVO,Franco da Rocha,FRANCO DA ROCHA,Franco da Rocha,1
+35012,IGNOR,Baixa Mogiana,BAIXA MOGIANA,Baixa Mogiana,8
+35013,ATIVO,Mananciais,MANANCIAIS,Mananciais,1
+35013,IGNOR,Baixada Santista,BAIXADA SANTISTA,Baixada Santista,8
+35014,ATIVO,Rota dos Bandeirantes,ROTA DOS BANDEIRANTES,Rota dos Bandeirantes,1
+35014,IGNOR,Bauru,BAURU,Bauru,8
+35015,ATIVO,Grande ABC,GRANDE ABC,Grande ABC,1
+35016,ATIVO,São Paulo,SAO PAULO,São Paulo,1
+35016,IGNOR,Campinas,CAMPINAS,Campinas,8
+35017,IGNOR,Catanduva,CATANDUVA,Catanduva,8
+35018,IGNOR,Central do DRS II,CENTRAL DO DRS II,Central do DRS II,8
+35019,IGNOR,Central do DRS III,CENTRAL DO DRS III,Central do DRS III,8
+35020,IGNOR,Centro Oeste do DRS III,CENTRO OESTE DO DRS III,Centro Oeste do DRS III,8
+35021,ATIVO,Central do DRS II,CENTRAL DO DRS II,Central do DRS II,1
+35021,IGNOR,Circuito da Fé e Vale Histórico,CIRCUITO DA FE E VALE HISTORICO,Circuito da Fé e Vale Histórico,8
+35022,ATIVO,Lagos do DRS II,LAGOS DO DRS II,Lagos do DRS II,1
+35022,IGNOR,Consórcios do DRS II,CONSORCIOS DO DRS II,Consórcios do DRS II,8
+35023,ATIVO,Consórcios do DRS II,CONSORCIOS DO DRS II,Consórcios do DRS II,1
+35023,IGNOR,Coração do DRS III,CORACAO DO DRS III,Coração do DRS III,8
+35024,IGNOR,Extremo Oeste Paulista,EXTREMO OESTE PAULISTA,Extremo Oeste Paulista,8
+35025,IGNOR,Fernandópolis,FERNANDOPOLIS,Fernandópolis,8
+35026,IGNOR,Franco da Rocha,FRANCO DA ROCHA,Franco da Rocha,8
+35027,IGNOR,Grande ABC,GRANDE ABC,Grande ABC,8
+35028,IGNOR,Horizonte Verde,HORIZONTE VERDE,Horizonte Verde,8
+35029,IGNOR,Itapetininga,ITAPETININGA,Itapetininga,8
+35030,IGNOR,Itapeva,ITAPEVA,Itapeva,8
+35031,ATIVO,Central do DRS III,CENTRAL DO DRS III,Central do DRS III,1
+35031,IGNOR,Jales,JALES,Jales,8
+35032,ATIVO,Centro Oeste do DRS III,CENTRO OESTE DO DRS III,Centro Oeste do DRS III,1
+35032,IGNOR,Jaú,JAU,Jaú,8
+35033,ATIVO,Norte do DRS III,NORTE DO DRS III,Norte do DRS III,1
+35033,IGNOR,José Bonifácio,JOSE BONIFACIO,José Bonifácio,8
+35034,ATIVO,Coração do DRS III,CORACAO DO DRS III,Coração do DRS III,1
+35035,IGNOR,Lagos do DRS II,LAGOS DO DRS II,Lagos do DRS II,8
+35036,IGNOR,Limeira,LIMEIRA,Limeira,8
+35037,IGNOR,Lins,LINS,Lins,8
+35038,IGNOR,Litoral Norte,LITORAL NORTE,Litoral Norte,8
+35039,IGNOR,Mananciais,MANANCIAIS,Mananciais,8
+35040,IGNOR,Mantiqueira,MANTIQUEIRA,Mantiqueira,8
+35041,ATIVO,Baixada Santista,BAIXADA SANTISTA,Baixada Santista,1
+35041,IGNOR,Marília,MARILIA,Marília,8
+35042,IGNOR,Norte - Barretos,NORTE - BARRETOS,Norte - Barretos,8
+35043,IGNOR,Norte do DRS III,NORTE DO DRS III,Norte do DRS III,8
+35044,IGNOR,Oeste VII,OESTE VII,Oeste VII,8
+35045,IGNOR,Ourinhos,OURINHOS,Ourinhos,8
+35046,IGNOR,Polo Cuesta,POLO CUESTA,Polo Cuesta,8
+35047,IGNOR,Piracicaba,PIRACICABA,Piracicaba,8
+35048,IGNOR,Pontal do Paranapanema,PONTAL DO PARANAPANEMA,Pontal do Paranapanema,8
+35049,IGNOR,Rio Claro,RIO CLARO,Rio Claro,8
+35050,IGNOR,Rio Pardo,RIO PARDO,Rio Pardo,8
+35051,ATIVO,Norte - Barretos,NORTE - BARRETOS,Norte - Barretos,1
+35051,IGNOR,Rota dos Bandeirantes,ROTA DOS BANDEIRANTES,Rota dos Bandeirantes,8
+35052,ATIVO,Sul - Barretos,SUL - BARRETOS,Sul - Barretos,1
+35052,IGNOR,Santa Fé do Sul,SANTA FE DO SUL,Santa Fé do Sul,8
+35053,IGNOR,São José do Rio Preto,SAO JOSE DO RIO PRETO,São José do Rio Preto,8
+35054,IGNOR,São Paulo,SAO PAULO,São Paulo,8
+35055,IGNOR,Sorocaba,SOROCABA,Sorocaba,8
+35056,IGNOR,Sul - Barretos,SUL - BARRETOS,Sul - Barretos,8
+35057,IGNOR,Três Colinas,TRES COLINAS,Três Colinas,8
+35058,IGNOR,Tupã,TUPA,Tupã,8
+35059,IGNOR,Vale das Cachoeiras,VALE DAS CACHOEIRAS,Vale das Cachoeiras,8
+35060,IGNOR,Vale do Jurumirim,VALE DO JURUMIRIM,Vale do Jurumirim,8
+35061,ATIVO,Vale do Jurumirim,VALE DO JURUMIRIM,Vale do Jurumirim,1
+35061,IGNOR,Vale do Paraíba/ Região Serrana,VALE DO PARAIBA/ REGIAO SERRANA,Vale do Paraíba/ Região Serrana,8
+35062,ATIVO,Bauru,BAURU,Bauru,1
+35062,IGNOR,Vale do Ribeira,VALE DO RIBEIRA,Vale do Ribeira,8
+35063,ATIVO,Polo Cuesta,POLO CUESTA,Polo Cuesta,1
+35063,IGNOR,Votuporanga,VOTUPORANGA,Votuporanga,8
+35064,ATIVO,Jaú,JAU,Jaú,1
+35064,IGNOR,Bragança,BRAGANCA,Bragança,8
+35065,ATIVO,Lins,LINS,Lins,1
+35065,IGNOR,Região Metropolitana de Campinas,REGIAO METROPOLITANA DE CAMPINAS,Região Metropolitana de Campinas,8
+35066,IGNOR,Jundiaí,JUNDIAI,Jundiaí,8
+35067,IGNOR,Circuito das Águas,CIRCUITO DAS AGUAS,Circuito das Águas,8
+35071,ATIVO,Bragança,BRAGANCA,Bragança,1
+35072,ATIVO,Região Metropolitana de Campinas,REGIAO METROPOLITANA DE CAMPINAS,Região Metropolitana de Campinas,1
+35073,ATIVO,Jundiaí,JUNDIAI,Jundiaí,1
+35074,ATIVO,Circuito das Águas,CIRCUITO DAS AGUAS,Circuito das Águas,1
+35081,ATIVO,Três Colinas,TRES COLINAS,Três Colinas,1
+35082,ATIVO,Alta Anhanguera,ALTA ANHANGUERA,Alta Anhanguera,1
+35083,ATIVO,Alta Mogiana,ALTA MOGIANA,Alta Mogiana,1
+35091,ATIVO,Adamantina,ADAMANTINA,Adamantina,1
+35092,ATIVO,Assis,ASSIS,Assis,1
+35093,ATIVO,Marília,MARILIA,Marília,1
+35094,ATIVO,Ourinhos,OURINHOS,Ourinhos,1
+35095,ATIVO,Tupã,TUPA,Tupã,1
+35101,ATIVO,Araras,ARARAS,Araras,1
+35102,ATIVO,Limeira,LIMEIRA,Limeira,1
+35103,ATIVO,Piracicaba,PIRACICABA,Piracicaba,1
+35104,ATIVO,Rio Claro,RIO CLARO,Rio Claro,1
+35111,ATIVO,Alta Paulista,ALTA PAULISTA,Alta Paulista,1
+35112,ATIVO,Alta Sorocabana,ALTA SOROCABANA,Alta Sorocabana,1
+35113,ATIVO,Alto Capivari,ALTO CAPIVARI,Alto Capivari,1
+35114,ATIVO,Extremo Oeste Paulista,EXTREMO OESTE PAULISTA,Extremo Oeste Paulista,1
+35115,ATIVO,Pontal do Paranapanema,PONTAL DO PARANAPANEMA,Pontal do Paranapanema,1
+35121,ATIVO,Vale do Ribeira,VALE DO RIBEIRA,Vale do Ribeira,1
+35131,ATIVO,Horizonte Verde,HORIZONTE VERDE,Horizonte Verde,1
+35132,ATIVO,Aquífero Guarani,AQUIFERO GUARANI,Aquífero Guarani,1
+35133,ATIVO,Vale das Cachoeiras,VALE DAS CACHOEIRAS,Vale das Cachoeiras,1
+35141,ATIVO,Baixa Mogiana,BAIXA MOGIANA,Baixa Mogiana,1
+35142,ATIVO,Mantiqueira,MANTIQUEIRA,Mantiqueira,1
+35143,ATIVO,Rio Pardo,RIO PARDO,Rio Pardo,1
+35151,ATIVO,Catanduva,CATANDUVA,Catanduva,1
+35152,ATIVO,Santa Fé do Sul,SANTA FE DO SUL,Santa Fé do Sul,1
+35153,ATIVO,Jales,JALES,Jales,1
+35154,ATIVO,Fernandópolis,FERNANDOPOLIS,Fernandópolis,1
+35155,ATIVO,São José do Rio Preto,SAO JOSE DO RIO PRETO,São José do Rio Preto,1
+35156,ATIVO,José Bonifácio,JOSE BONIFACIO,José Bonifácio,1
+35157,ATIVO,Votuporanga,VOTUPORANGA,Votuporanga,1
+35161,ATIVO,Itapetininga,ITAPETININGA,Itapetininga,1
+35162,ATIVO,Itapeva,ITAPEVA,Itapeva,1
+35163,ATIVO,Sorocaba,SOROCABA,Sorocaba,1
+35171,ATIVO,Alto Vale do Paraíba,ALTO VALE DO PARAIBA,Alto Vale do Paraíba,1
+35172,ATIVO,Circuito da Fé e Vale Histórico,CIRCUITO DA FE E VALE HISTORICO,Circuito da Fé e Vale Histórico,1
+35173,ATIVO,Litoral Norte,LITORAL NORTE,Litoral Norte,1
+35174,ATIVO,Vale do Paraíba/Região Serrana,VALE DO PARAIBA/REGIAO SERRANA,Vale do Paraíba/Região Serrana,1
+35174,IGNOR,Vale do Paraíba/Região Serrana,VALE DO PARAIBA/REGIAO SERRANA,Vale do Paraíba/Região Serrana,8
+41001,ATIVO,1ª RS Paranaguá,1ª RS PARANAGUA,1ª RS Paranaguá,1
+41002,ATIVO,2ª RS Metropolitana,2ª RS METROPOLITANA,2ª RS Metropolitana,1
+41003,ATIVO,3ª RS Ponta Grossa,3ª RS PONTA GROSSA,3ª RS Ponta Grossa,1
+41004,ATIVO,4ª RS Irati,4ª RS IRATI,4ª RS Irati,1
+41005,ATIVO,5ª RS Guarapuava,5ª RS GUARAPUAVA,5ª RS Guarapuava,1
+41006,ATIVO,6ª RS União da Vitória,6ª RS UNIAO DA VITORIA,6ª RS União da Vitória,1
+41007,ATIVO,7ª RS Pato Branco,7ª RS PATO BRANCO,7ª RS Pato Branco,1
+41008,ATIVO,8ª RS Francisco Beltrão,8ª RS FRANCISCO BELTRAO,8ª RS Francisco Beltrão,1
+41009,ATIVO,9ª RS Foz do Iguaçu,9ª RS FOZ DO IGUACU,9ª RS Foz do Iguaçu,1
+41010,ATIVO,10ª RS Cascavel,10ª RS CASCAVEL,10ª RS Cascavel,1
+41011,ATIVO,11ª RS Campo Mourão,11ª RS CAMPO MOURAO,11ª RS Campo Mourão,1
+41012,ATIVO,12ª RS Umuarama,12ª RS UMUARAMA,12ª RS Umuarama,1
+41013,ATIVO,13ª RS Cianorte,13ª RS CIANORTE,13ª RS Cianorte,1
+41014,ATIVO,14ª RS Paranavaí,14ª RS PARANAVAI,14ª RS Paranavaí,1
+41015,ATIVO,15ª RS Maringá,15ª RS MARINGA,15ª RS Maringá,1
+41016,ATIVO,16ª RS Apucarana,16ª RS APUCARANA,16ª RS Apucarana,1
+41017,ATIVO,17ª RS Londrina,17ª RS LONDRINA,17ª RS Londrina,1
+41018,ATIVO,18ª RS Cornélio Procópio,18ª RS CORNELIO PROCOPIO,18ª RS Cornélio Procópio,1
+41019,ATIVO,19ª RS Jacarezinho,19ª RS JACAREZINHO,19ª RS Jacarezinho,1
+41020,ATIVO,20ª RS Toledo,20ª RS TOLEDO,20ª RS Toledo,1
+41021,ATIVO,21ª RS Telêmaco Borba,21ª RS TELEMACO BORBA,21ª RS Telêmaco Borba,1
+41022,ATIVO,22ª RS Ivaiporã,22ª RS IVAIPORA,22ª RS Ivaiporã,1
+42000,IGNOR,Macrorregião do Extremo Oeste - 02,MACRORREGIAO DO EXTREMO OESTE - 02,Macrorregião do Extremo Oeste - 02,8
+42000,IGNOR,Macrorregião Sul - Região Carbonífera (Amplanorte),MACRORREGIAO SUL - REGIAO CARBONIFERA (AMPLANORTE),Macrorregião Sul - Região Carbonífera (Amplanorte),8
+42000,IGNOR,Macrorregião Sul - Região de Laguna,MACRORREGIAO SUL - REGIAO DE LAGUNA,Macrorregião Sul - Região de Laguna,8
+42000,IGNOR,Macrorregião do Extremo Oeste - 01,MACRORREGIAO DO EXTREMO OESTE - 01,Macrorregião do Extremo Oeste - 01,8
+42000,IGNOR,Macrorregião do Extremo Oeste - 03,MACRORREGIAO DO EXTREMO OESTE - 03,Macrorregião do Extremo Oeste - 03,8
+42000,IGNOR,Macrorregião do Vale do Itajaí - Alto Vale do Itajaí,MACRORREGIAO DO VALE DO ITAJAI - ALTO VALE DO ITAJAI,Macrorregião do Vale do Itajaí - Alto Vale do Itajaí,8
+42000,IGNOR,Macrorregião do Vale do Itajaí - Foz do Vale do Itajaí,MACRORREGIAO DO VALE DO ITAJAI - FOZ DO VALE DO ITAJAI,Macrorregião do Vale do Itajaí - Foz do Vale do Itajaí,8
+42000,IGNOR,Macrorregião do Vale do Itajaí - Médio Vale do Itajaí,MACRORREGIAO DO VALE DO ITAJAI - MEDIO VALE DO ITAJAI,Macrorregião do Vale do Itajaí - Médio Vale do Itajaí,8
+42000,IGNOR,Macrorregião Grande Florianópolis,MACRORREGIAO GRANDE FLORIANOPOLIS,Macrorregião Grande Florianópolis,8
+42000,IGNOR,Macrorregião Meio Oeste,MACRORREGIAO MEIO OESTE,Macrorregião Meio Oeste,8
+42000,IGNOR,Macrorregião Meio Oeste - Alto do Rio do Peixe,MACRORREGIAO MEIO OESTE - ALTO DO RIO DO PEIXE,Macrorregião Meio Oeste - Alto do Rio do Peixe,8
+42000,IGNOR,Macrorregião Meio Oeste - Alto do Rio Uruguai,MACRORREGIAO MEIO OESTE - ALTO DO RIO URUGUAI,Macrorregião Meio Oeste - Alto do Rio Uruguai,8
+42000,IGNOR,Macrorregião Nordeste,MACRORREGIAO NORDESTE,Macrorregião Nordeste,8
+42000,IGNOR,Macrorregião Norte,MACRORREGIAO NORTE,Macrorregião Norte,8
+42000,IGNOR,Macrorregião Planalto Serrano,MACRORREGIAO PLANALTO SERRANO,Macrorregião Planalto Serrano,8
+42000,IGNOR,Macrorregião Sul - Extremo Sul Catarinense,MACRORREGIAO SUL - EXTREMO SUL CATARINENSE,Macrorregião Sul - Extremo Sul Catarinense,8
+42001,ATIVO,Extremo Oeste,EXTREMO OESTE,Extremo Oeste,1
+42002,ATIVO,Oeste,OESTE,Oeste,1
+42003,ATIVO,Xanxerê,XANXERE,Xanxerê,1
+42004,ATIVO,Alto Vale do Itajaí,ALTO VALE DO ITAJAI,Alto Vale do Itajaí,1
+42005,ATIVO,Foz do Rio Itajaí,FOZ DO RIO ITAJAI,Foz do Rio Itajaí,1
+42006,ATIVO,Médio Vale do Itajaí,MEDIO VALE DO ITAJAI,Médio Vale do Itajaí,1
+42007,ATIVO,Grande Florianópolis,GRANDE FLORIANOPOLIS,Grande Florianópolis,1
+42008,ATIVO,Meio Oeste,MEIO OESTE,Meio Oeste,1
+42009,ATIVO,Alto Vale do Rio do Peixe,ALTO VALE DO RIO DO PEIXE,Alto Vale do Rio do Peixe,1
+42010,ATIVO,Alto Uruguai Catarinense,ALTO URUGUAI CATARINENSE,Alto Uruguai Catarinense,1
+42011,ATIVO,Nordeste,NORDESTE,Nordeste,1
+42012,ATIVO,Planalto Norte,PLANALTO NORTE,Planalto Norte,1
+42013,ATIVO,Serra Catarinense,SERRA CATARINENSE,Serra Catarinense,1
+42014,ATIVO,Extremo Sul Catarinense,EXTREMO SUL CATARINENSE,Extremo Sul Catarinense,1
+42015,ATIVO,Carbonífera,CARBONIFERA,Carbonífera,1
+42016,ATIVO,Laguna,LAGUNA,Laguna,1
+43000,IGNOR,10ª CRS,10ª CRS,10ª CRS,8
+43000,IGNOR,11ª CRS,11ª CRS,11ª CRS,8
+43000,IGNOR,18ª CRS,18ª CRS,18ª CRS,8
+43000,IGNOR,19ª CRS,19ª CRS,19ª CRS,8
+43000,IGNOR,1ª CRS,1ª CRS,1ª CRS,8
+43000,IGNOR,2ª CRS,2ª CRS,2ª CRS,8
+43000,IGNOR,4ª CRS,4ª CRS,4ª CRS,8
+43000,IGNOR,6ª CRS,6ª CRS,6ª CRS,8
+43000,IGNOR,8ª CRS,8ª CRS,8ª CRS,8
+43000,IGNOR,12ª CRS,12ª CRS,12ª CRS,8
+43000,IGNOR,13ª CRS,13ª CRS,13ª CRS,8
+43000,IGNOR,14ª CRS,14ª CRS,14ª CRS,8
+43000,IGNOR,15ª  CRS,15ª  CRS,15ª  CRS,8
+43000,IGNOR,16ª CRS,16ª CRS,16ª CRS,8
+43000,IGNOR,17ª CRS,17ª CRS,17ª CRS,8
+43000,IGNOR,3ª CRS,3ª CRS,3ª CRS,8
+43000,IGNOR,5ª CRS,5ª CRS,5ª CRS,8
+43000,IGNOR,7ª CRS,7ª CRS,7ª CRS,8
+43001,ATIVO,Região 01 - Verdes Campos,REGIAO 01,Região 01 - Verdes Campos,1
+43002,ATIVO,Região 02 - Entre Rios,REGIAO 02,Região 02 - Entre Rios,1
+43003,ATIVO,Região 03 - Fronteira Oeste,REGIAO 03,Região 03 - Fronteira Oeste,1
+43004,ATIVO,Região 04 - Belas Praias,REGIAO 04,Região 04 - Belas Praias,1
+43005,ATIVO,Região 05 - Bons Ventos,REGIAO 05,Região 05 - Bons Ventos,1
+43005,IGNOR,9ª CRS,9ª CRS,9ª CRS,8
+43006,ATIVO,Região 06 - Vale do Paranhana e Costa Serr,REGIAO 06 - VALE DO PARANHANA E COSTA SERR,Região 06 - Vale do Paranhana e Costa Serr,1
+43007,ATIVO,Região 07 - Vale dos Sinos,REGIAO 07,Região 07 - Vale dos Sinos,1
+43008,ATIVO,Região 08 - Vale do Caí e Metropolitana,REGIAO 08,Região 08 - Vale do Caí e Metropolitana,1
+43009,ATIVO,Região 09 - Carbonífera/Costa Doce,REGIAO 09,Região 09 - Carbonífera/Costa Doce,1
+43010,ATIVO,Região 10 - Capital e Vale do Gravataí,REGIAO 10,Região 10 - Capital e Vale do Gravataí,1
+43011,ATIVO,Região 11 - Sete Povos das Missões,REGIAO 11,Região 11 - Sete Povos das Missões,1
+43012,ATIVO,Região 12 - Portal das Missões,REGIAO 12,Região 12 - Portal das Missões,1
+43013,ATIVO,Região 13 - Diversidade,REGIAO 13,Região 13 - Diversidade,1
+43014,ATIVO,Região 14 - Fronteira Noroeste,REGIAO 14,Região 14 - Fronteira Noroeste,1
+43015,ATIVO,Região 15 - Caminho das Águas,REGIAO 15,Região 15 - Caminho das Águas,1
+43016,ATIVO,Região 16 - Alto Uruguai Gaúcho,REGIAO 16,Região 16 - Alto Uruguai Gaúcho,1
+43017,ATIVO,Região 17 - Planalto,REGIAO 17,Região 17 - Planalto,1
+43018,ATIVO,Região 18 - Araucárias,REGIAO 18,Região 18 - Araucárias,1
+43019,ATIVO,Região 19 - Botucaraí,REGIAO 19,Região 19 - Botucaraí,1
+43020,ATIVO,Região 20 - Rota da Produção,REGIAO 20,Região 20 - Rota da Produção,1
+43021,ATIVO,Região 21 - Sul,REGIAO 21,Região 21 - Sul,1
+43022,ATIVO,Região 22 - Pampa,REGIAO 22,Região 22 - Pampa,1
+43023,ATIVO,Região 23 - Caxias e Hortênsias,REGIAO 23,Região 23 - Caxias e Hortênsias,1
+43024,ATIVO,Região 24 - Campos de Cima da Serra,REGIAO 24,Região 24 - Campos de Cima da Serra,1
+43025,ATIVO,Região 25 - Vinhedos e Basalto,REGIAO 25,Região 25 - Vinhedos e Basalto,1
+43026,ATIVO,Região 26 - Uva Vale,REGIAO 26,Região 26 - Uva Vale,1
+43027,ATIVO,Região 27 - Jacuí Centro,REGIAO 27,Região 27 - Jacuí Centro,1
+43028,ATIVO,Região 28 - Vinte e Oito,REGIAO 28,Região 28 - Vinte e Oito,1
+43029,ATIVO,Região 29 - Vales e Montanhas,REGIAO 29,Região 29 - Vales e Montanhas,1
+43030,ATIVO,Região 30 - Vale da Luz,REGIAO 30,Região 30 - Vale da Luz,1
+50000,IGNOR,Macrorregião de Campo Grande,MACRORREGIAO DE CAMPO GRANDE,Macrorregião de Campo Grande,8
+50001,ATIVO,Campo Grande,CAMPO GRANDE,Campo Grande,1
+50002,ATIVO,Corumbá,CORUMBA,Corumbá,1
+50003,ATIVO,Dourados,DOURADOS,Dourados,1
+50004,ATIVO,Três Lagoas,TRES LAGOAS,Três Lagoas,1
+51001,ATIVO,Alto Tapajós,ALTO TAPAJOS,Alto Tapajós,1
+51002,ATIVO,Baixada Cuiabana,BAIXADA CUIABANA,Baixada Cuiabana,1
+51003,ATIVO,Araguaia Xingu,ARAGUAIA XINGU,Araguaia Xingu,1
+51004,ATIVO,Centro Norte,CENTRO NORTE,Centro Norte,1
+51005,ATIVO,Garças Araguaia,GARCAS ARAGUAIA,Garças Araguaia,1
+51006,ATIVO,Médio Araguaia,MEDIO ARAGUAIA,Médio Araguaia,1
+51007,ATIVO,Médio Norte Matogrossense,MEDIO NORTE MATOGROSSENSE,Médio Norte Matogrossense,1
+51008,ATIVO,Noroeste Matogrossense,NOROESTE MATOGROSSENSE,Noroeste Matogrossense,1
+51009,ATIVO,Norte Araguaia Karajá,NORTE ARAGUAIA KARAJA,Norte Araguaia Karajá,1
+51010,ATIVO,Norte Matogrossense,NORTE MATOGROSSENSE,Norte Matogrossense,1
+51011,ATIVO,Oeste Matogrossense,OESTE MATOGROSSENSE,Oeste Matogrossense,1
+51012,ATIVO,Sudoeste Matogrossense,SUDOESTE MATOGROSSENSE,Sudoeste Matogrossense,1
+51013,ATIVO,Sul Matogrossense,SUL MATOGROSSENSE,Sul Matogrossense,1
+51014,ATIVO,Teles Pires,TELES PIRES,Teles Pires,1
+51015,ATIVO,Vale do Peixoto,VALE DO PEIXOTO,Vale do Peixoto,1
+51016,ATIVO,Vale dos Arinos,VALE DOS ARINOS,Vale dos Arinos,1
+52001,ATIVO,Central,CENTRAL,Central,1
+52002,ATIVO,Centro Sul,CENTRO SUL,Centro Sul,1
+52003,ATIVO,Entorno Norte,ENTORNO NORTE,Entorno Norte,1
+52004,ATIVO,Entorno Sul,ENTORNO SUL,Entorno Sul,1
+52005,ATIVO,Estrada de Ferro,ESTRADA DE FERRO,Estrada de Ferro,1
+52006,ATIVO,Nordeste I,NORDESTE I,Nordeste I,1
+52007,ATIVO,Nordeste II,NORDESTE II,Nordeste II,1
+52008,ATIVO,Norte,NORTE,Norte,1
+52009,ATIVO,Oeste I,OESTE I,Oeste I,1
+52010,ATIVO,Oeste II,OESTE II,Oeste II,1
+52011,ATIVO,Pirineus,PIRINEUS,Pirineus,1
+52012,ATIVO,Rio Vermelho,RIO VERMELHO,Rio Vermelho,1
+52013,ATIVO,São Patrício I,SAO PATRICIO I,São Patrício I,1
+52014,ATIVO,Serra da Mesa,SERRA DA MESA,Serra da Mesa,1
+52015,ATIVO,Sudoeste I,SUDOESTE I,Sudoeste I,1
+52016,ATIVO,Sudoeste II,SUDOESTE II,Sudoeste II,1
+52017,ATIVO,Sul,SUL,Sul,1
+52018,ATIVO,São Patrício II,SAO PATRICIO II,São Patrício II,1
+53001,ATIVO,Distrito Federal,DISTRITO FEDERAL,Distrito Federal,1
