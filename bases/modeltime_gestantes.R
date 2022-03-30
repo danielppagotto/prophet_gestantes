@@ -46,19 +46,6 @@ nascimentos_go %>%
 nascimentos_go %>% 
   plot_time_series(dtnasc, total)
 
-
-
-# regiao central ----------------------------------------------------------
-
-regiao_central <- nascimentos_go %>% 
-                    filter(ds_nomepad == "CENTRAL")
-
-
-
-
-
-
-
 # split e prophet ---------------------------------------------------------
 
 splits <- time_series_split(
@@ -166,28 +153,9 @@ total_nascimentos %>%
   theme_minimal() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 
 
-# Regiao Sul --------------------------------------------------------------
 
 
-
-
-
-
-
-
-
-# Oferta de profissionais -------------------------------------------------
-
-
-
-oferta <- read_csv("dados_oferta_profissionais_gestantes.csv") %>% 
-            group_by(ano, nivel_atencao, categoria) %>% 
-            summarise(CH_total = (sum(FTE) * 0.12)/12,
-                      FTE_40 = CH_total/40)
-
-oferta %>% 
-  ggplot(aes(ano, FTE_40, col = nivel_atencao)) + geom_line() + 
-  facet_wrap(~categoria)
+# Necessidades região central ---------------------------------------------
 
 
 
