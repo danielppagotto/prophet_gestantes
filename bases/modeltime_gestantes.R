@@ -18,19 +18,21 @@ regioes_nomes <- read_csv("https://raw.githubusercontent.com/danielppagotto/prop
                  janitor::clean_names() %>% 
                  select(co_regsaud, ds_nomepad)
 
+
+municipios_macrorregiao_saude <- read_csv("municipios_macrorregiao_saude.csv")
+
 # nascimentos$mes_ano <- zoo::as.yearmon(nascimentos$dtnasc, "%Y %m")
 nascimentos$mes_ano <- as.Date(format(nascimentos$dtnasc, "%Y-%m"))
 
 nascimentos <- nascimentos %>% 
-                  mutate(regiao = as.character(str_sub(codmunres, end = 6)))
+                  mutate(regiao = as.integer(str_sub(codmunres, end = 6)))
 
 nascimentos_go <- nascimentos %>% 
                     filter(dtnasc < "2021-10-01") %>%
-                    left_join(municipio_regiao, by = c("regiao"="co_municip")) %>% 
-                    left_join(regioes_nomes, by = c("co_regsaud" = "co_regsaud")) %>% 
-                    group_by(co_regsaud, dtnasc, ds_nomepad) %>%
+                    left_join(municipios_macrorregiao_saude, by = c("regiao"="cod_municipio")) %>% 
+                    group_by(regiao, macrorregiao, dtnasc) %>%
                     summarise(total = sum(contagem)) %>% 
-                    filter(ds_nomepad != "NA")
+                    filter(macrorregiao != "NA")
 
 
 datas <- nascimentos_go %>% 
