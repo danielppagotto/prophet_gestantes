@@ -25,21 +25,69 @@ oferta <- read_csv("https://raw.githubusercontent.com/danielppagotto/prophet_ges
 # tratamentos iniciais ----------------------------------------------------
 
 
-oferta_t <- oferta %>% 
+oferta_semestral <- oferta %>% 
               mutate(mes_ano = ym(str_c(ano, mes)),
-                     fte_mes = fte * 4, 
-                     quantidade_semanal = fte/40, 
-                     quantidade_mensal = fte_mes/160) %>% 
-              rename(fte_semanal = fte) %>% 
+                     ano = year(mes_ano),
+                     mes = month(mes_ano),
+                     semestre = if_else(mes < 7, "1","2"),
+                     semestre_ano = str_c(semestre, "/", ano),
+                     fte_liquido = (fte * 0.6),
+                     fte_mes = fte_liquido * 4, 
+                     quantidade_semanal = fte_liquido/40, 
+                     quantidade_mensal = fte_liquido/160,
+                     quantidade_mensal = case_when(nivel_atencao == "APS" ~ 0.12 * quantidade_mensal,
+                                                   nivel_atencao == "Atenção Secundária" ~ 0.50 * quantidade_mensal)) %>% 
+                     rename(fte_semanal = fte) %>% 
+              filter(mes_ano > "2016-12-01" & mes_ano < "2022-01-01") %>% 
               left_join(municipios_macrorregiao_saude, by = c("codufmun" = "cod_municipio")) %>% 
-              group_by(macrorregiao, mes_ano, nivel_atencao, categoria) %>% 
-              summarise(fte_mensal = sum(fte_mes),
-                        qtd_mensal = sum(quantidade_mensal))
-              
-write.csv(oferta_t, "oferta_tratada.csv")              
+              group_by(macrorregiao, semestre_ano, nivel_atencao, categoria) %>% 
+              summarise(fte_semestral = sum(fte_mes),
+                        qtd_semestral = sum(quantidade_mensal))
+
+
+oferta_eaps <- oferta_semestral %>% 
+  filter(categoria == "Enfermeiro" & nivel_atencao == "APS")
+
+oferta_maps <- oferta_semestral %>% 
+  filter(categoria == "Médico" & nivel_atencao == "APS")
+
+oferta_eas <- oferta_semestral %>% 
+  filter(categoria == "Enfermeiro" & nivel_atencao == "Atenção Secundária")
+
+oferta_mas <- oferta_semestral %>% 
+  filter(categoria == "Médico" & nivel_atencao == "Atenção Secundária")
+
+writexl::write_xlsx(oferta_eaps, "oferta_eaps.xlsx")
+writexl::write_xlsx(oferta_maps, "oferta_maps.xlsx")
+writexl::write_xlsx(oferta_maps, "oferta_eas.xlsx")
+writexl::write_xlsx(oferta_maps, "oferta_mas.xlsx")
+
+# write.csv(oferta_t, "oferta_tratada.csv")              
+writexl::write_xlsx(oferta_t, "oferta_tratada.xlsx")
 
 # APS ---------------------------------------------------------------------
 # enfermeiros -------------------------------------------------------------
+
+
+oferta_t <- oferta %>% 
+  mutate(mes_ano = ym(str_c(ano, mes)),
+         ano = year(mes_ano),
+         mes = month(mes_ano),
+         semestre = if_else(mes < 7, "1","2"),
+         semestre_ano = str_c(semestre, "/", ano),
+         fte_liquido = (fte * 0.6),
+         fte_mes = fte_liquido * 4, 
+         quantidade_semanal = fte_liquido/40, 
+         quantidade_mensal = fte_liquido/160,
+         quantidade_mensal = case_when(nivel_atencao == "APS" ~ 0.12 * quantidade_mensal,
+                                       nivel_atencao == "Atenção Secundária" ~ 0.60 * quantidade_mensal)) %>% 
+  rename(fte_semanal = fte) %>% 
+  filter(mes_ano > "2016-12-01" & mes_ano < "2022-01-01") %>% 
+  left_join(municipios_macrorregiao_saude, by = c("codufmun" = "cod_municipio")) %>% 
+  group_by(macrorregiao, mes_ano, nivel_atencao, categoria) %>% 
+  summarise(fte_mensal = sum(fte_mes),
+            qtd_mensal = sum(quantidade_mensal))
+
 
 oferta_enf_aps <- oferta_t %>%  
                     filter(categoria == "Enfermeiro" & nivel_atencao == "APS") 
@@ -47,8 +95,9 @@ oferta_enf_aps <- oferta_t %>%
 e_aps <- oferta_enf_aps %>% 
   filter(mes_ano > "2015-12-01" & mes_ano < "2022-01-01") %>% 
   ungroup() %>% 
-  ggplot(aes(mes_ano, qtd_mensal, col = macrorregiao)) + geom_line(size = 1) + theme_minimal() + 
-  ggtitle("Enfermeiros na APS") + theme(legend.position='none')
+  ggplot(aes(mes_ano, qtd_mensal, col = macrorregiao)) + geom_line(size = 1) +
+  theme_minimal() + ggtitle("Enfermeiros na APS") + theme(legend.position='none') + 
+  xlab("Mês e ano") + ylab("Total") 
 
 # médicos  ----------------------------------------------------------------
 
