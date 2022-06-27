@@ -182,7 +182,7 @@ total_nascimentos %>%
 # macrorregiao centro-oeste -----------------------------------------------------------------
 
 regiao_centro_oeste <- nascimentos_go %>% 
-  filter(macrorregiao == "macrorregião Centro-Oeste") %>% 
+  filter(macrorregiao == "macrorregiÃ£o Centro-Oeste") %>% 
   ungroup() %>% 
   select(-macrorregiao)
 
@@ -286,7 +286,7 @@ total_nascimentos_atual_recente_regiao_centro_oeste <-
 # macrorregiao Sudoeste -----------------------------------------------------------------
 
 regiao_sudoeste <- nascimentos_go %>% 
-  filter(macrorregiao == "macrorregião Sudoeste") %>% 
+  filter(macrorregiao == "MacrorregiÃ£o Sudoeste") %>% 
   ungroup() %>% 
   select(-macrorregiao)
 
@@ -387,7 +387,7 @@ total_nascimentos_atual_recente_regiao_sudoeste <-
 # macrorregiao Nordeste -----------------------------------------------------------------
 
 regiao_nordeste <- nascimentos_go %>% 
-  filter(macrorregiao == "macrorregião Nordeste") %>% 
+  filter(macrorregiao == "MacrorregiÃ£o Nordeste") %>% 
   ungroup() %>% 
   select(-macrorregiao)
 
@@ -490,7 +490,7 @@ total_nascimentos_atual_recente_regiao_nordeste <-
 # macrorregiao Centro-Norte -----------------------------------------------------------------
 
 regiao_centro_norte <- nascimentos_go %>% 
-  filter(macrorregiao == "macrorregião Centro-Norte") %>% 
+  filter(macrorregiao == "MacrorregiÃ£o Centro-Norte") %>% 
   ungroup() %>% 
   select(-macrorregiao)
 
@@ -592,7 +592,7 @@ total_nascimentos_atual_recente_regiao_centro_norte <-
 # macrorregiao Centro-Sudeste -----------------------------------------------------------------
 
 regiao_centro_sudeste <- nascimentos_go %>% 
-  filter(macrorregiao == "macrorregião Centro Sudeste") %>% 
+  filter(macrorregiao == "MacrorregiÃ£o Centro Sudeste") %>% 
   ungroup() %>% 
   select(-macrorregiao)
 
@@ -714,7 +714,7 @@ nascimentos_previsao_tempos <- read_excel("~/GitHub/prophet_gestantes/bases/nasc
 
 nascimentos_previsao_atual <- nascimentos_previsao_tempos %>% 
                                   select(regiao, mes_ano_data, total) %>% 
-                                  mutate(status = "previsão") %>% 
+                                  mutate(status = "previsto") %>% 
                                   rename(macrorregiao = regiao, 
                                          data = mes_ano_data)
 
@@ -723,13 +723,13 @@ nascimentos_previsao_atual <- rbind(nascimentos_previsao_atual, nascimentos_go)
 
 nascimentos_previsao_atual <- nascimentos_previsao_atual %>% 
                                   mutate(macrorregiao = case_when(macrorregiao == "Centro Norte" | 
-                                                                  macrorregiao == "Macrorregião Centro-Norte" ~ "Centro-Norte",
+                                                                  macrorregiao == "Macrorregi?o Centro-Norte" ~ "Centro-Norte",
                                                                   macrorregiao == "Centro Oeste" | 
-                                                                  macrorregiao == "macrorregião Centro-Oeste" ~ "Centro-Oeste",
-                                                                  macrorregiao == "Macrorregião Centro Sudeste" | 
+                                                                  macrorregiao == "macrorregi?o Centro-Oeste" ~ "Centro-Oeste",
+                                                                  macrorregiao == "Macrorregi?o Centro Sudeste" | 
                                                                   macrorregiao == "Centro Sudeste" ~ "Centro-Sudeste",
-                                                                  macrorregiao == "Macrorregião Nordeste" | macrorregiao == "Nordeste" ~ "Nordeste",
-                                                                  macrorregiao == "Macrorregião Sudoeste" | macrorregiao == "Sudoeste" ~ "Sudoeste"))
+                                                                  macrorregiao == "Macrorregi?o Nordeste" | macrorregiao == "Nordeste" ~ "Nordeste",
+                                                                  macrorregiao == "Macrorregi?o Sudoeste" | macrorregiao == "Sudoeste" ~ "Sudoeste"))
 
 nascimentos_previsao_atual %>% 
   group_by(macrorregiao) %>% 
@@ -761,27 +761,23 @@ tempos <- tempos_procedimentos %>%
   gather(key = "Procedimento",
          value = "Tempo em horas",
          2:14) %>% 
-  separate(Procedimento, c("Procedimento","Nível de atenção"), ",") %>% 
-  mutate(atencao = as.numeric(`Nível de atenção`)) %>% 
-  mutate(Atenção = case_when(atencao == 1 ~ "Primária",
+  separate(Procedimento, c("Procedimento","NÃ­vel de atenÃ§Ã£o"), ",") %>% 
+  mutate(atencao = as.numeric(`NÃ­vel de atenÃ§Ã£o`)) %>% 
+  mutate(Atencao = case_when(atencao == 1 ~ "PrimÃ¡ria",
                              atencao == 2 ~ "Especializada"))
 
 
 tempos %>% 
   ggplot(aes(x = fct_reorder(Procedimento,`Tempo em horas`), 
-             y = `Tempo em horas`, fill = Atenção)) + 
+             y = `Tempo em horas`, fill = Atencao)) + 
   geom_col() + coord_flip() + theme_minimal() + 
-  xlab("Procedimento") + ggtitle("Tempo médio por procedimento", 
-                                 "Média de tempos dos três anos projetados") + 
+  xlab("Procedimento") + ggtitle("Tempo m?dio por procedimento", 
+                                 "M?dia de tempos dos tr?s anos projetados") + 
   facet_grid(~regiao) + theme(text = element_text(size = 25)) + 
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 
 
-
-
-
 # tempos de profissionais -------------------------------------------------
-
 
 
 tempos_procedimentos <- nascimentos_previsao_tempos %>% 
@@ -803,7 +799,7 @@ tempos_procedimentos <- nascimentos_previsao_tempos %>%
 #                                                     tempo_ultrassom_obstetrico + 
 #                                                     tempo_tococardiografia + 
 #                                                     tempo_parto_cesarea + 
-#                                                     tempo_parto_normal_sem_instrumentação)/960,
+#                                                     tempo_parto_normal_sem_instrumenta??o)/960,
 #                                 tempo_enfermeiro = (0.5 * tempo_consulta_prenatal +
 #                                                     0.5 * tempo_consulta_puerperal +
 #                                                     0.5 * tempo_acoes_educativas)/960) %>% 
@@ -821,7 +817,7 @@ demanda_profissionais <- tempos_procedimentos %>%
   gather(key = "Profissional",
          value = "total",
          3:5) %>% ungroup() %>% 
-  mutate(cenário = "demanda")
+  mutate(cenario = "demanda")
 
 
 
@@ -851,7 +847,7 @@ demanda_profissionais %>%
   theme_minimal() + theme(text = element_text(size = 22)) + xlab("Ano") + 
   ylab("Total de profissionais em ETI40") + 
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-  scale_fill_discrete(labels = c("Enfermeiro AB", "Médico AB", "Médico AS")) + 
+  scale_fill_discrete(labels = c("Enfermeiro AB", "M?dico AB", "M?dico AS")) + 
   theme(legend.position = 'bottom')
 
 
@@ -864,10 +860,10 @@ oferta_consolidada <- oferta_consolidada %>%
   mutate(ano = year(mes_ano)) %>% 
   filter(ano > 2021) %>% 
   group_by(macrorregiao, ano, nivel_atencao, 
-           categoria, cenário) %>% 
+           categoria, cen?rio) %>% 
   summarise(total = sum(qtd_mensal)) %>% 
   ungroup() %>% 
-  select(ano, macrorregiao, categoria, total, cenário) %>% 
+  select(ano, macrorregiao, categoria, total, cen?rio) %>% 
   rename(regiao = macrorregiao, Profissional = categoria)
 
 
@@ -878,8 +874,8 @@ demanda_oferta <- rbind(oferta_consolidada, demanda_profissionais)
 
 demanda_oferta %>% 
   filter(Profissional == "enf_ab") %>% 
-  ggplot(aes(x = ano, y = total, col = cenário)) + geom_line(size = 1) + geom_point() +
-  geom_label(aes(label = round(total), fill = cenário), colour = "white", fontface = "bold", size = 8) + 
+  ggplot(aes(x = ano, y = total, col = cen?rio)) + geom_line(size = 1) + geom_point() +
+  geom_label(aes(label = round(total), fill = cen?rio), colour = "white", fontface = "bold", size = 8) + 
   theme_minimal() + facet_wrap(~regiao, nrow = 2, ncol = 3) + scale_x_continuous(breaks = seq(2022, 2024, 1)) +
   theme(legend.position = 'bottom') + theme(text = element_text(size = 23)) +
   guides(col=guide_legend(nrow=2,byrow=TRUE)) + 
@@ -889,23 +885,23 @@ demanda_oferta %>%
 
 demanda_oferta %>% 
   filter(Profissional == "medico_ab") %>% 
-  ggplot(aes(x = ano, y = total, col = cenário)) + geom_line(size = 1) + geom_point() +
-  geom_label(aes(label = round(total), fill = cenário), colour = "white", fontface = "bold", size = 8) + 
+  ggplot(aes(x = ano, y = total, col = cen?rio)) + geom_line(size = 1) + geom_point() +
+  geom_label(aes(label = round(total), fill = cen?rio), colour = "white", fontface = "bold", size = 8) + 
   theme_minimal() + facet_wrap(~regiao, nrow = 2, ncol = 3) + scale_x_continuous(breaks = seq(2022, 2024, 1)) +
   theme(legend.position = 'bottom') + theme(text = element_text(size = 23)) +
   guides(col=guide_legend(nrow=2,byrow=TRUE)) +
-  ggtitle("Demanda vs Oferta - Médico (AB)")
+  ggtitle("Demanda vs Oferta - M?dico (AB)")
 
 
 
 demanda_oferta %>% 
   filter(Profissional == "medico_esp") %>% 
-  ggplot(aes(x = ano, y = total, col = cenário)) + geom_line(size = 1) + geom_point() +
-  geom_label(aes(label = round(total), fill = cenário), colour = "white", fontface = "bold", size = 8) + 
+  ggplot(aes(x = ano, y = total, col = cen?rio)) + geom_line(size = 1) + geom_point() +
+  geom_label(aes(label = round(total), fill = cen?rio), colour = "white", fontface = "bold", size = 8) + 
   theme_minimal() + facet_wrap(~regiao, nrow = 2, ncol = 3) + scale_x_continuous(breaks = seq(2022, 2024, 1)) +
   theme(legend.position = 'bottom') + theme(text = element_text(size = 23)) +
   guides(col=guide_legend(nrow=2,byrow=TRUE)) + 
-  ggtitle("Demanda vs Oferta - Médico (AS)")
+  ggtitle("Demanda vs Oferta - M?dico (AS)")
 
 
 
@@ -913,12 +909,12 @@ demanda_oferta %>%
 # calculando deficits -----------------------------------------------------
 
 deficit <- demanda_oferta %>% 
-  mutate(status = case_when(cenário == "Oferta - Cenário 1 - constante" ~ "oferta1", 
-                            cenário == "Oferta - Cenário 2 - aumento de 5% ao ano" ~ "oferta2",
-                            cenário == "Oferta - Cenário 3 - alteração para os níveis pré-pandemia (12/2019)" ~ "oferta3",
-                            cenário == "demanda" ~ "demanda"
+  mutate(status = case_when(cen?rio == "Oferta - Cen?rio 1 - constante" ~ "oferta1", 
+                            cen?rio == "Oferta - Cen?rio 2 - aumento de 5% ao ano" ~ "oferta2",
+                            cen?rio == "Oferta - Cen?rio 3 - altera??o para os n?veis pr?-pandemia (12/2019)" ~ "oferta3",
+                            cen?rio == "demanda" ~ "demanda"
                             )) %>% 
-  select(-cenário) %>% 
+  select(-cen?rio) %>% 
   spread(status, total) %>% 
   group_by(regiao, Profissional) %>% 
   summarize_all(mean) %>% 
